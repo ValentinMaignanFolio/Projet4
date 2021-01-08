@@ -488,7 +488,7 @@ button {
 }
 
 .btn-clean {
-    border: 3px solid rgba(255, 255, 255);
+    border: 3px solid rgb(243, 72, 4);
     text-shadow: 0 1px 0 rgba(0, 0, 1, .1);
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(223, 148, 148,1);
 }
@@ -772,7 +772,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgb(99, 98, 94);
+    background-color: rgb(31, 30, 30);
     padding: 40px 40px 40px 40px;
 }
 
@@ -789,22 +789,22 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background: #ec7a45;
+    background: #333333;
 }
 
 .tc-white {
-    color: #ec7a45!important;
+    color: #f36929!important;
     text-shadow:1px 2px black;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background: #333130;
+    color: #faf8f8!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #faf8f8!important;
+    color: #df491b!important;
 }
 
 .ltc-white {
@@ -855,6 +855,10 @@ h4 {
     margin:10px;
     
     
+}
+
+.row-footer a{
+    color:white!important;
 }
 
 .row-footer .col-sm-4{
@@ -1107,14 +1111,13 @@ h4 {
         display: flex;
         flex-direction: column;
     }
-    
+}  
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
-    .portfolio-thumb
 }
 
 @media (max-width: 767px) {
