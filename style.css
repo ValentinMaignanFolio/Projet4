@@ -113,7 +113,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: #1f1f1f!important;
 }
 
 .d-bloc button:hover {
@@ -765,7 +765,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .portfolio-thumb {
@@ -783,7 +783,7 @@ h4 {
 }
 
 .black-background {
-    background-color:#F3976C;
+    background-color:rgba(213, 197, 156, 0.8);
     padding: 40px 40px 40px 40px;
 }
 
@@ -809,8 +809,8 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #fcfbfa;
-    color: #F3976C!important;
+    background: #ffffff;
+    color: #3d3835!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -827,11 +827,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #F38c5d!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #F3976C!important;
+    color: #F38c5d!important;
 }
 
 .icon-dark-slate-blue {
@@ -847,9 +847,13 @@ h4 {
     background-image: url("img/image-de-presentation.webp");
 }
 
-/* MODIFICATION */ 
+/* MODIFICATION */
+
+.white_text{
+    color: white!important;
+}
 #titre_black{
-    color:black!important;
+    color:#ba5629!important;
     text-shadow: none;
 }
 
@@ -873,7 +877,7 @@ h4 {
 }
 
 .row-footer a{
-    color:white!important;
+    color:#1f1f1f!important;
 }
 
 .row-footer .col-sm-4{
